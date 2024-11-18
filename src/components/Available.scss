@@ -1,0 +1,45 @@
+/* src/components/Available.scss */
+.available {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: #536def;
+    }
+
+    .chart-container {
+        margin-top: 20px;
+    }
+
+    .overview-text {
+        margin-top: 20px;
+        font-size: 16px;
+        color: #666;
+    }
+}
+
+/* Define the gradient fills for the bars */
+#chart-gradients {
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+#chart-gradients defs {
+    height: 0;
+}
+
+#chart-gradients defs linearGradient {
+    stop-color: #536def;
+    stop-opacity: 0.9;
+}
+
+#chart-gradients defs linearGradient {
+    stop-color: #ff8c00;
+    stop-opacity: 0.9;
+}
